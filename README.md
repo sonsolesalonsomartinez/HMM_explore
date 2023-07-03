@@ -9,5 +9,7 @@ The repository contains:
 - regression folder, with functions implementing cross-validated ridge regression
 
 Please note that this repositorty does not include the real data used for the analyses.
+
 ! The LFP dataset used in 'test_HMM_LFP' is part of a yet unpublished dataset, but can be obtained upon request. 
+
 ! The MEG dataset used in 'test_HMM_MEG' has been previously collected by O'Neill et al. (2015), https://doi.org/10.1016/j.neuroimage.2015.04.030. This repository does not contain the data, neither the functions used to load them (can be obtained upon request).

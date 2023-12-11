@@ -46,7 +46,7 @@ if length(unique(Y(:)))==2
     [~,I] = max(accuracy);
 else
     [~,I] = min(accuracy);
-    
+end    
 best_alpha = alpha(I);
 
 end

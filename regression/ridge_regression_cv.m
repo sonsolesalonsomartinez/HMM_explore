@@ -154,7 +154,7 @@ for icv = 1:NCV
         end
         Yhat = Xtest * beta(:,icv);
         if classification
-           regr_acc(icv) = mean(sign(Yhat)==sign(Ytest));
+           regr_mse(icv) = mean(sign(Yhat)==sign(Ytest));
         else
             %disp(['explained variance']);
             regr_mse(icv) = 1-(var(Ytest - Yhat) / var(Ytest)); 
